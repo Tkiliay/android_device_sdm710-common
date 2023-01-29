@@ -151,6 +151,9 @@ on boot
 on boot && property:persist.sys.usb.config=*
     setprop sys.usb.config ${persist.sys.usb.config}
 
+# default country code
+    setprop ro.boot.wificountrycode 00
+
 #pd-mapper
 service vendor.pd_mapper /vendor/bin/pd-mapper
     class core
