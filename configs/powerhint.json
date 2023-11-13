@@ -103,8 +103,10 @@
       "Path": "/dev/stune/top-app/schedtune.boost",
       "Values": [
         "50",
-        "10"
+        "10",
+        "0"
       ],
+      "DefaultIndex": 1,
       "ResetOnInit": true
     },
     {
@@ -625,6 +627,12 @@
       "Node": "DoubleTapToWake",
       "Duration": 0,
       "Value": "1"
+    },
+    {
+      "PowerHint": "DISPLAY_INACTIVE",
+      "Node": "TASchedtuneBoost",
+      "Duration": 0,
+      "Value": "0"
     }
   ]
 }
