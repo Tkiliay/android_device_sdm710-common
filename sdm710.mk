@@ -129,7 +129,7 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     android.hardware.graphics.mapper@2.0-impl-qti-display \
     vendor.qti.hardware.display.allocator@1.0-service \
-    gralloc.sdm710
+    gralloc.qcom 
 
 PRODUCT_PACKAGES += \
     android.hardware.graphics.composer@2.3-service \
